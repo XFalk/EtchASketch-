@@ -4,7 +4,7 @@ html{
 body{
     background-color: #c9c9c9;
     background-size: cover;
-    background-image: url(img/background.jpg);
+   background-image: url(img/background.jpg);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -49,3 +49,4 @@ body{
 #square:hover {
 cursor: crosshair;
 }
+

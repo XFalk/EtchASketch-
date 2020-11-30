@@ -20,8 +20,8 @@ function addElement(){
     min-height: ${countdivmin}px;`;
  };
         const pixeles = document.querySelectorAll('.pixel');
-pixeles.forEach(pixel => pixel.addEventListener('click', () =>{
+pixeles.forEach(pixel => pixel.addEventListener('mouseenter', () =>{
    // console.log('yes');
    pixel.style.background='black';
     }));
-}
+                                                }
